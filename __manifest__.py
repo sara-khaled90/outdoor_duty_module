@@ -1,0 +1,22 @@
+{
+    'name': 'Outdoor Duty',
+    'version': '13.0.1.0',
+    'category': 'Od Management',
+    'summary': 'Outdoor Duty and Travel Authority Management',
+    'description': 'Manage outdoor duties, travel authority and visit reports',
+    'author': 'Custom',
+    'depends': ['base','mail','hr'],
+    'data': [
+        'security/od_security.xml',
+        'security/ir.model.access.csv',
+        'data/sequence.xml',
+        'views/outdoor_duty_views.xml',
+        'views/travel_authority_views.xml',
+        'views/expense_views.xml',
+        'views/report_templates.xml',
+        'views/report_actions.xml',
+        'views/wizard_views.xml',
+    ],
+    'installable': True,
+    'application': True,
+}
